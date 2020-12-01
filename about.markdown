@@ -1,18 +1,17 @@
 ---
-layout: page
-title: About
+layout: single
+title: Over
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+De AutCast is een podcast gemaakt door David Westerink. De podcast is begonnen op 2 april 2020, Wereld Autisme Dag. De podcast wil autisme bespreekbaar maken. Praten over autisme is een van de eerste stappen onderweg naar een inclusieve samenleving waarin alle neurodiverse mensen samen kunnen leven met neurotypische mensen.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Iets te vertellen over autisme?
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Ik sta altijd open voor mensen om te komen praten in een aflevering van de AutCast. Dus nodig ik je graag uit om met mij in gesprek te gaan over autisme en/of neurodiversiteit in mijn podcast. Zelf ben ik autistisch en ben druk bezig om bewustzijn en acceptatie te creëren voor autisme. Dit doe ik onder andere met deze podcast.
 
+Je opgeven voor de podcast kan via verschillende kanalen:
 
-[jekyll-organization]: https://github.com/jekyll
+- Via email: {{ "autcast@myautsiticself.nl" | create_mailto_link }}
+- Via [LinkedIn](https://www.linkedin.com/in/myautisticself/)
+- Via [Discord](https://discord.gg/5TEuS8xZSD)
