@@ -29,7 +29,7 @@ description              : &description >- # this means to ignore newlines until
   De AutCast is een podcast over autisme en neurodiversiteit. Een zoektocht
   naar wat autisme nu betekend voor mensen en hoe we de wereld beter om kunnen
   laten gaan met neurodiversiteit. 
-url                      : https://autcast.nl # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://autcast.myautisticself.nl # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 # repository               : "mmistakes/minimal-mistakes"
 teaser                   : "/assets/img/autcast2.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"

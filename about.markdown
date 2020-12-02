@@ -17,3 +17,8 @@ Je opgeven voor de podcast kan via verschillende kanalen:
 - Via email: {{ "autcast@myautsiticself.nl" | create_mailto_link }}
 - Via [LinkedIn](https://www.linkedin.com/in/myautisticself/)
 - Via [Discord](https://discord.gg/5TEuS8xZSD)
+- Via [ons contact formulier](/contact)
+
+# Delen word gewaardeerd!
+
+Delen van de podcast en de podcast beoordelen word altijd gewaardeerd. We zijn te vinden op alle grote podcast platformen en druk aan het groeien. Naamsbekenheid is een groot goed. Dus als je een aflevering geluisterd hebt, deel het dan met vrienden en/of collega's voor meer bekenheid.
