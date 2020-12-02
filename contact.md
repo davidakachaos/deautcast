@@ -12,8 +12,6 @@ Via onderstaande formulier kun je contact opnemen met de AutCast. Ik sta altijd 
 Of uiteraard via het onderstaande formulier:
 
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
 <form class="ui form" id="my-form"
   action="https://formspree.io/f/xknpvyvq"
   method="POST"
@@ -38,7 +36,6 @@ Of uiteraard via het onderstaande formulier:
   <input type="hidden" name="_subject" value="Nieuw bericht!" />
   <input type="hidden" name="_language" value="nl" />
   <input type="text" name="_gotcha" />
-  <div class="g-recaptcha" data-sitekey="6Le3aOkUAAAAAK_vTtS6xMkOe46zsPf2j4I_p8_K"></div>
   <button class="ui button" id="my-form-button">Verstuur!</button>
   <p ></p>
 </form>
@@ -70,12 +67,6 @@ window.addEventListener("DOMContentLoaded", function() {
     $('#my-form-status div.header').text('Helaas!');
     $('#my-form-status p').text('Er was een probleem bij het versturen van uw bericht!');
     $('#my-form-status').show();
-  }
-
-  function clientIp(){
-    $.getJSON('https://api.ipify.org?format=json', function(data){
-      return data.ip;
-    });
   }
 
   // handle the form submission event
