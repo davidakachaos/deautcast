@@ -1,8 +1,14 @@
 ---
-layout: posts
+layout: single
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
 title: Feiten, fabels en vaccinaties
 date: 2020-05-04 07:55 -0500
 podcast_episode: Feiten--fabels-en-vaccinaties-edih9d
+tags: persoonlijk
 ---
 
 In deze tweede aflevering van de AutCast wil ik het met jullie hebben over feiten, fabels en vaccinaties. Ik behandel verschillende fabels die de ronde doen over autisme, en wat feiten als tegen gewicht. Uiteraard zijn deze feiten en fabels vanuit mezelf besproken.

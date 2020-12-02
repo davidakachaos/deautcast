@@ -1,8 +1,14 @@
 ---
-layout: posts
+layout: single
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
 title: Interview met Hidde Dijkstra
 date: 2020-12-01 08:18 -0500
 podcast_episode: Aflevering-4---Interview-met-Hidde-Dijkstra-embms0
+tags: interview scauting
 ---
 In deze aflevering heb ik een interview met Hidde Dijkstra, een coach bij Scauting in Tjallebert.
 
