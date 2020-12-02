@@ -50,8 +50,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git gc --prune
   git push || exit 1
   git checkout source
-  echo 'https://autcast.nl has been deployed.'
-  notify-send 'https://aucast.nl has been deployed.'
+  echo 'https://autcast.myautisticself.nl has been deployed.'
+  notify-send 'https://aucast.myautisticself.nl has been deployed.'
 else
   notify-send 'Nothing was changed! Aborting deployment.'
   git checkout source
