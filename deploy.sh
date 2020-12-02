@@ -45,7 +45,7 @@ echo 'Copying build site to main branch'
 rsync --delete --progress --checksum -z --archive _site/* . || exit 1
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git add -A .
-  git commit -m "Latest version of De AutCast - $($datetime)"
+  git commit -m "Latest version of De AutCast - $datetime"
   echo 'Pushing latest to GitHub!'
   git gc --prune
   git push || exit 1
