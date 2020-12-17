@@ -86,11 +86,12 @@ og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter d
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : "Organization" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/de_aut"
     - "https://www.facebook.com/deautcast"
+    - "https://www.instagram.com/deautcast/"
 
 # Analytics
 analytics:
@@ -118,7 +119,7 @@ author:
       url: "https://www.facebook.com/myautisticself"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/david.westerink"
+      url: "https://instagram.com/deautcast"
 
 
 # Site Footer
@@ -132,7 +133,7 @@ footer:
       url: "https://fb.me/DeAutCast"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/david.westerink"
+      url: "https://instagram.com/deautcast"
 
 
 # Reading Files
@@ -163,6 +164,11 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - bin
+  - .bundle
+  - deploy.sh
+  - package-lock.json
+  - staticman.yml
 keep_files:
   - .git
   - .svn
