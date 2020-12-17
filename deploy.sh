@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Deploy script
 notify-send 'Deploying De AutCast to the world!'
-cd /home/david/Broncode/AutCast || exit 1
 if branch=$(git symbolic-ref --short -q HEAD);then
   if [ "$branch" == "source" ]; then
     echo 'Getting latest changes...'
