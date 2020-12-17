@@ -15,3 +15,5 @@ sed_posts.sh
 .cloudflare_key
 .webpush_keys.yaml
 staticman.yml
+bin
+.bundle
