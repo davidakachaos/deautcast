@@ -200,14 +200,16 @@ defaults:
   - # _posts
     scope:
       path: ""
-      type: posts
-    values:
+      type: "posts"
+    values: &posts
       layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+      podcast_episode: 
+      tags: 
   # _pages
   - 
     scope:
@@ -216,6 +218,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+jekyll_compose:
+  default_front_matter:
+    drafts: 
+      <<: *posts
+    posts:
+      <<: *posts
 
 
 # Sass/SCSS
