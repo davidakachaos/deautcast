@@ -22,4 +22,10 @@ var store = [{
         "tags": ["interview","scauting"],
         "url": "https://autcast.myautisticself.nl/interview-met-hidde-dijkstra/",
         "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
+      },{
+        "title": "Interview met Julian Harmens, autistisch dichter",
+        "excerpt":"Vandaag ga ik in gesprek met Julian Harmens. Hij is dichter, schrijver en autistisch. Na een lezing die hij gaf met zijn vader (Erik Jan Harmens) heb ik hem uitgenodigd voor een gesprek op de podcast. Hier gaan we in op autisme, dichten en zijn kijk op de wereld. De...","categories": [],
+        "tags": ["interview"],
+        "url": "https://autcast.myautisticself.nl/interview-met-julian-harmens-autistisch-dichter/",
+        "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
       }]
