@@ -28,4 +28,10 @@ var store = [{
         "tags": ["interview"],
         "url": "https://autcast.myautisticself.nl/interview-met-julian-harmens-autistisch-dichter/",
         "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
+      },{
+        "title": "In gesprek met Erik Velstra van Slimmerik",
+        "excerpt":"Slimmerik ondersteuning is een Friese organisatie die zich richt op hulp en ondersteuning van autistische jongeren in Friesland. Directeur en oprichter Erik Velstra is in deze aflevering mijn gast. We gaan in gesprek over Slimmerik, het hoe en waarom van de organisatie en wat voor hulp Slimmerik een jongere met...","categories": [],
+        "tags": ["interview","slimmerik"],
+        "url": "https://autcast.myautisticself.nl/in-gesprek-met-erik-velstra-van-slimmerik/",
+        "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
       }]
