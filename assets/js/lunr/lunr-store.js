@@ -34,4 +34,10 @@ var store = [{
         "tags": ["interview","slimmerik"],
         "url": "https://autcast.myautisticself.nl/in-gesprek-met-erik-velstra-van-slimmerik/",
         "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
+      },{
+        "title": "In gesprek met Jolijn de Boer",
+        "excerpt":"Vandaag ga ik in gesprek met Jolijn de Boer van het Autisme Netwerk Friesland (ANF). We praten met elkaar over het netwerk en wat het betekend voor ons autisten om een dergelijk netwerk te hebben. Binnenkort, maandagavond 8 februari 2021 om 19.45u, organiseert het netwerk ook een webinar over autisme...","categories": [],
+        "tags": ["interview","ANF","autisme","netwerk","Friesland"],
+        "url": "https://autcast.myautisticself.nl/in-gesprek-met-jolijn-de-boer/",
+        "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
       }]
