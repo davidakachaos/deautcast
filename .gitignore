@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 bin
 .bundle
+.webpush_keys.yaml
+.bitly_cache
