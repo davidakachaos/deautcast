@@ -97,7 +97,7 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "" # Replace this with your ID, or delete
+    tracking_id          : "UA-429677-9" # Replace this with your ID, or delete
     anonymize_ip         : true
 
 
@@ -294,5 +294,7 @@ jekyll-archives:
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
+  blanklines: true
   ignore:
     envs: development
