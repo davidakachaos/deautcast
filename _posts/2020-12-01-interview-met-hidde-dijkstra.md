@@ -17,3 +17,5 @@ Hidde is iemand die zelf autistisch is, net als ik, en werkzaam is bij de dagbes
 Meer informatie over Scauting kunnen jullie vinden op [www.scauting.nl](https://www.scauting.nl)
 
 Wisten jullie trouwens dat jullie ook een voicemail bericht voor me kunnen achter laten via [https://anchor.fm/autcast](https://anchor.fm/autcast)? Misschien hoor ik jullie snel!
+
+Contact met mij opnemen kan ook via {{ "autcast@myautisticself.nl" | create_mailto_link }}. En uiteraard via [Contact](/contact/) hier op deze website.

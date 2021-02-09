@@ -15,4 +15,4 @@ Slimmerik ondersteuning is een Friese organisatie die zich richt op hulp en onde
 Meer informatie over Slimmerik vind je op hun website: [https://www.slimmerik-ondersteuning.nl/](https://www.slimmerik-ondersteuning.nl/)  
 Ook kun je altijd contact met hun opnemen via **058 - 845 95 74** of {{ "info@slimmerik-ondersteuning.nl" | create_mailto_link }}
 
-Contact met mij opnemen kan via autcast@myautisticself.nl of je kunt een voicemail bericht voor me achter laten. En uiteraard via [Contact](/contact/) hier op deze website.
+Contact met mij opnemen kan via {{ "autcast@myautisticself.nl" | create_mailto_link }} of je kunt [een voicemail bericht](https://anchor.fm/autcast/message) voor me achter laten. En uiteraard via [Contact](/contact/) hier op deze website.

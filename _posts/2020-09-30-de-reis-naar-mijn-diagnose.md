@@ -14,4 +14,4 @@ Na een lang hiaat ben ik terug! Terug met een speciale aflevering, namelijk met 
 
 Er is de mogelijkheid om ook te reageren via een voicemail bericht! Dit kan via [https://anchor.fm/autcast/message](https://anchor.fm/autcast/message)
 
-Natuurlijk kun je ook altijd reageren via mijn social media: [https://linktr.ee/myautisticself](https://linktr.ee/myautisticself)
+Natuurlijk kun je ook altijd reageren via mijn social media: [https://linktr.ee/myautisticself](https://linktr.ee/myautisticself) of via {{ "autcast@myautisticself.nl" | create_mailto_link }}. En uiteraard via [Contact](/contact/) hier op deze website.

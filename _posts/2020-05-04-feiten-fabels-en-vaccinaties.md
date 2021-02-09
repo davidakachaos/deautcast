@@ -17,3 +17,5 @@ Heb je een opmerking, vraag of andere feedback? Ik hoor graag van je!
 Dus heb je een aanvulling, of een idee om ergens over te praten? Of wil je misschien eens op de podcast komen praten over autisme of neurodiversiteit in het algemeen? Neem contact met me op!
 
 Mijn intro muziek, On The Verge, is gemaakt door Joseph McDade.
+
+Contact met mij opnemen kan via {{ "autcast@myautisticself.nl" | create_mailto_link }} of je kunt [een voicemail bericht](https://anchor.fm/autcast/message) voor me achter laten. En uiteraard via [Contact](/contact/) hier op deze website.

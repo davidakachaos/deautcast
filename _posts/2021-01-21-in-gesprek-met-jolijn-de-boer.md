@@ -14,4 +14,4 @@ Vandaag ga ik in gesprek met Jolijn de Boer van het Autisme Netwerk Friesland (A
 
 Binnenkort, maandagavond 8 februari 2021 om 19.45u,  organiseert het netwerk ook een webinar over autisme bij vrouwen! Via deze link kunnen jullie je hiervoor aanmelden: [https://bit.ly/38vAyNq](https://bit.ly/38vAyNq)
 
-Contact met mij opnemen kan via autcast@myautisticself.nl of je kunt een voicemail bericht voor me achter laten. En uiteraard via [Contact](/contact/) hier op deze website.
+Contact met mij opnemen kan via {{ "autcast@myautisticself.nl" | create_mailto_link }} of je kunt [een voicemail bericht](https://anchor.fm/autcast/message) voor me achter laten. En uiteraard via [Contact](/contact/) hier op deze website.
