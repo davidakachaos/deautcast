@@ -17,3 +17,4 @@ sed_posts.sh
 staticman.yml
 bin
 .bundle
+.bitly_cache
