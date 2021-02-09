@@ -51,6 +51,9 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git checkout source
   echo 'https://autcast.myautisticself.nl has been deployed.'
   notify-send 'https://aucast.myautisticself.nl has been deployed.'
+  ./bin/generate-bitlys.rb
+  git add db.json
+  git commit -m "Added Bitly links after webpush - $datetime"
 else
   notify-send 'Nothing was changed! Aborting deployment.'
   git checkout source
