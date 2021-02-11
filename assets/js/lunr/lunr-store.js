@@ -40,4 +40,10 @@ var store = [{
         "tags": ["interview","ANF","autisme","netwerk","Friesland"],
         "url": "https://autcast.myautisticself.nl/in-gesprek-met-jolijn-de-boer/",
         "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
+      },{
+        "title": "In gesprek met Anna Soorsma van JP van den Bent",
+        "excerpt":"In deze aflevering praat ik met Anna Soorsma van de JP van den Bent stichting. We praten over het begeleiden van autisten door de JP van den Bent stichting en hoe Anna zelf ooit begonnen is met dit werk. Meer informatie over JP van den Bent vind je op hun...","categories": [],
+        "tags": ["interview","jpvdbent","autisme"],
+        "url": "https://autcast.myautisticself.nl/in-gesprek-met-anna-soorsma-van-jp-van-den-bent/",
+        "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
       }]
