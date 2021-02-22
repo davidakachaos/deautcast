@@ -46,4 +46,10 @@ var store = [{
         "tags": ["interview","jpvdbent","autisme"],
         "url": "https://autcast.myautisticself.nl/in-gesprek-met-anna-soorsma-van-jp-van-den-bent/",
         "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
+      },{
+        "title": "In gesprek met Rosalie Ekstein, autisme socioloog",
+        "excerpt":"Vandaag ga ik in gesprek met Rosalie Ekstein, autisme socioloog. Naast diens werk als socioloog, heeft die ook een Facebook pagina Autivisme en de groep Autivisten opgezet. Autivisme is een grote bron van allerlei nuttige informatie over neurodiversiteit in Nederland. De groep is opgezet door autisten voor iedereen die meer...","categories": [],
+        "tags": ["autisme","socioloog","interview"],
+        "url": "https://autcast.myautisticself.nl/in-gesprek-met-rosalie-ekstein-autisme-socioloog/",
+        "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
       }]
