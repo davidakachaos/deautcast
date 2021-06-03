@@ -52,4 +52,10 @@ var store = [{
         "tags": ["autisme","socioloog","interview"],
         "url": "https://autcast.myautisticself.nl/in-gesprek-met-rosalie-ekstein-autisme-socioloog/",
         "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
+      },{
+        "title": "In gesprek met Horizon Begeleiding - Autisme op school",
+        "excerpt":"Vandaag ga ik in gesprek met Lieuwkje Boomsma en Wypkje Wijngaarden van Horizon Begeleiding. Samen praten we over naar school gaan met een “rugzak” en wat te doen als naar school gaan er niet in zit. Wat kunnen we dan doen om jongeren op te vangen en (uiteindelijk) toch weer...","categories": [],
+        "tags": ["autisme","begeleiding","netwerk"],
+        "url": "https://autcast.myautisticself.nl/in-gesprek-met-horizon-begeleiding-autisme-op-school/",
+        "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
       }]

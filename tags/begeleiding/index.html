@@ -8,23 +8,23 @@
 <html lang="nl" class="no-js">
  <head>
    <meta charset="utf-8">
-<title>Contact - De AutCast</title>
+<title>begeleiding - De AutCast</title>
 <meta name="description" content="De AutCast is een podcast over autisme en neurodiversiteit. Een zoektocht naar wat autisme nu betekend voor mensen en hoe we de wereld beter om kunnen laten gaan met neurodiversiteit.">
  <meta name="author" content="David Westerink">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="nl_NL">
 <meta property="og:site_name" content="De AutCast">
-<meta property="og:title" content="Contact">
-<meta property="og:url" content="https://autcast.myautisticself.nl/contact/">
+<meta property="og:title" content="begeleiding">
+<meta property="og:url" content="https://autcast.myautisticself.nl/tags/begeleiding/">
  <meta property="og:description" content="De AutCast is een podcast over autisme en neurodiversiteit. Een zoektocht naar wat autisme nu betekend voor mensen en hoe we de wereld beter om kunnen laten gaan met neurodiversiteit.">
  <meta property="og:image" content="https://autcast.myautisticself.nl/assets/images/site-logo.png">
  <meta name="twitter:site" content="@de_aut">
- <meta name="twitter:title" content="Contact">
+ <meta name="twitter:title" content="begeleiding">
  <meta name="twitter:description" content="De AutCast is een podcast over autisme en neurodiversiteit. Een zoektocht naar wat autisme nu betekend voor mensen en hoe we de wereld beter om kunnen laten gaan met neurodiversiteit.">
- <meta name="twitter:url" content="https://autcast.myautisticself.nl/contact/">
+ <meta name="twitter:url" content="https://autcast.myautisticself.nl/tags/begeleiding/">
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://autcast.myautisticself.nl/assets/images/site-logo.png">
-<link rel="canonical" href="https://autcast.myautisticself.nl/contact/">
+<link rel="canonical" href="https://autcast.myautisticself.nl/tags/begeleiding/">
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -71,7 +71,7 @@
 </script>
 <link href="https://anchor.fm/s/111ec8f8/podcast/rss" type="application/atom+xml" rel="alternate" title="De AutCast Podcast Feed">
  </head>
- <body class="layout--single">
+ <body class="layout--archive-taxonomy">
    <nav class="skip-links">
  <h2 class="screen-reader-text">Skip links</h2>
  <ul>
@@ -108,99 +108,24 @@
 </div>
    <div class="initial-content">
 <div id="main" role="main">
- <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-   <meta itemprop="headline" content="Contact">
-   <div class="page__inner-wrap">
-      <header>
-         <h1 id="page-title" class="page__title" itemprop="headline">Contact
-</h1>
-       </header>
-     <section class="page__content" itemprop="text">
-       <p>Via onderstaande formulier kun je contact opnemen met de AutCast. Ik sta altijd open voor ideeën en mensen om mee te praten. Ook via de volgende plekken is de podcast bereikbaar:</p>
-<ul>
- <li>Via email: <a href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#58;&#x61;&#117;&#x74;&#99;&#x61;&#x73;&#x74;&#x40;&#x6d;y&#x61;&#x75;&#116;&#x73;&#105;&#116;&#105;&#99;&#115;&#101;&#108;&#102;&#46;&#110;&#108;">autcast@myautsiticself.nl</a></li>
- <li>Via <a href="https://www.linkedin.com/in/myautisticself/">LinkedIn</a></li>
- <li>Via <a href="https://discord.gg/5TEuS8xZSD">Discord</a></li>
-</ul>
-<p>Of uiteraard via het onderstaande formulier:</p>
-<form class="ui form" id="my-form" action="https://formspree.io/f/xknpvyvq" method="POST">
- <div class="field">
-    <label>Naam:</label>
-    <input type="text" name="name" placeholder="Uw naam" />
- </div>
- <div class="field">
-    <label>Email adres:</label>
-    <input type="email" name="email" placeholder="Uw email adres" />
- </div>
- <div class="field">
-    <label>Bericht:</label>
-    <textarea rows="5" name="message" placeholder="Uw bericht...">
-    </textarea>
- </div>
- <div id="my-form-status" style="display: none;" class="ui message">
-   <div class="header"></div>
-   <p></p>
- </div>
-  <input type="hidden" name="_subject" value="Nieuw bericht!" />
-  <input type="hidden" name="_language" value="nl" />
-  <input type="text" name="_gotcha" />
-  <button class="ui button" id="my-form-button">Verstuur!</button>
- <p></p>
-</form>
-<script type="text/javascript">
-window.addEventListener("DOMContentLoaded", function() {
-  // get the form elements defined in your form HTML above
-  var form = document.getElementById("my-form");
-  var button = document.getElementById("my-form-button");
-  var status = document.getElementById("my-form-status");
-  // Success and Error functions for after the form is submitted
-  function success() {
-    form.reset();
-    button.style = "display: none ";
-    // status.innerHTML = "Bedankt voor uw bericht!";
-    $('#my-form-status').addClass('success');
-    $('#my-form-status div.header').text('Bedankt!');
-    $('#my-form-status p').text('Bedankt voor uw bericht!');
-    $('#my-form-status').show();
-  }
-  function error() {
-    // status.innerHTML = "Oops! Er was een probleem bij het versturen.";
-    $('#my-form-status').addClass('error');
-    $('#my-form-status div.header').text('Helaas!');
-    $('#my-form-status p').text('Er was een probleem bij het versturen van uw bericht!');
-    $('#my-form-status').show();
-  }
-  // handle the form submission event
-  form.addEventListener("submit", function(ev) {
-    ev.preventDefault();
-    $('my-form').addClass('loading');
-    var data = new FormData(form);
-    ajax(form.method, form.action, data, success, error);
-  });
-});
-// helper function for sending an AJAX request
-function ajax(method, url, data, success, error) {
-  var xhr = new XMLHttpRequest();
-  xhr.open(method, url);
-  xhr.setRequestHeader("Accept", "application/json");
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState !== XMLHttpRequest.DONE) return;
-    if (xhr.status === 200) {
-      success(xhr.response, xhr.responseType);
-      $('my-form').removeClass('loading');
-    } else {
-      error(xhr.status, xhr.response, xhr.responseType);
-      $('my-form').removeClass('loading');
-    }
-  };
-  xhr.send(data);
-}
-</script>
-     </section>
-     <footer class="page__meta">
-     </footer>
-   </div>
+ <div class="archive">
+     <h1 id="page-title" class="page__title">begeleiding</h1>
+<div class="list__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+   <h2 class="archive__item-title no_toc" itemprop="headline">
+        <a href="/in-gesprek-met-horizon-begeleiding-autisme-op-school/" rel="permalink">In gesprek met Horizon Begeleiding - Autisme op school
+</a>
+   </h2>
+ <p class="page__meta">
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+          minder dan 1 minuut gelezen
+      </span>
+ </p>
+   <p class="archive__item-excerpt" itemprop="description">Vandaag ga ik in gesprek met Lieuwkje Boomsma en Wypkje Wijngaarden van Horizon Begeleiding. Samen praten we over naar school gaan met een “rugzak” en wat te...</p>
  </article>
+</div>
+ </div>
 </div>
    </div>
    <div id="footer" class="page__footer">
