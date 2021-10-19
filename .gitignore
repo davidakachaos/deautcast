@@ -5,4 +5,5 @@ _site
 bin
 .bundle
 .webpush_keys.yaml
-.bitly_cache.vscode
+.bitly_cache
+.vscode
