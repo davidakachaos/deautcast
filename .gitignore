@@ -18,3 +18,4 @@ staticman.yml
 bin
 .bundle
 .bitly_cache
+.vscode
