@@ -58,4 +58,10 @@ var store = [{
         "tags": ["autisme","begeleiding","netwerk"],
         "url": "https://autcast.myautisticself.nl/in-gesprek-met-horizon-begeleiding-autisme-op-school/",
         "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
+      },{
+        "title": "Naar school in een prikkelende wereld",
+        "excerpt":"Deze bijzondere aflevering van de AutCast is gemaakt in samenwerking met het Autisme Netwerk Friesland (ANF). Het ANF is een project gestart om prikkelverwerking op de middelbare school onder de aandacht te brengen bij docenten en ondersteunend personeel. In het kader hiervan worden op verschillende middelbare scholen in Friesland zogenaamde...","categories": [],
+        "tags": ["ANF","autisme","school","prikkels","prikkelverwerking"],
+        "url": "https://autcast.myautisticself.nl/naar-school-in-een-prikkelende-wereld/",
+        "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
       }]
