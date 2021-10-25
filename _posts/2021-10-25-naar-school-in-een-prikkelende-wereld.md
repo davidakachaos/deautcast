@@ -8,6 +8,7 @@ share: true
 related: true
 podcast_episode: naar-school-in-een-prikkelende-wereld-e19099i
 tags: ANF autisme school prikkels prikkelverwerking
+date: 2021-10-25 09:42 +0200
 ---
 Deze bijzondere aflevering van de AutCast is gemaakt in samenwerking met het Autisme Netwerk Friesland (ANF). Het ANF is een project gestart om prikkelverwerking op de middelbare school onder de aandacht te brengen bij docenten en ondersteunend personeel. ![Logo ANF](/assets/img/afn-logo.png){:class="align-right"} In het kader hiervan worden op verschillende middelbare scholen in Friesland zogenaamde lunch trommels langs gebracht met informatie over prikkelverwerking. Voor meer informatie over dit project verwijs ik graag naar de website van het project.
 
