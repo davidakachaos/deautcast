@@ -6,6 +6,8 @@ main:
     url: /about/
   - title: "Contact"
     url: /contact/
+  - title: 'Voorwaarden'
+    url: /algemene-voorwaarden
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
