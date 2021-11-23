@@ -7,7 +7,7 @@ read_time: true
 comments: true
 share: true
 related: true
-podcast_episode: autisme-en-jobcoaching-in-gesprek-met-willemijn-van-dennebroek-etcdkf
+podcast_episode: Autisme-en-jobcoaching---In-gesprek-met-Willemijn-van-Dennebroek-etcdkf
 tags: autisme jobcoaching werk interview
 ---
 In deze aflevering ga ik in gesprek met Willemijn van Dennebroek, job coach bij Scauting. Met haar praat ik over wat een jobcoach eigenlijk is, over werk en wat daarvoor nodig is.
