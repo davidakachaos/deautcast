@@ -64,4 +64,10 @@ var store = [{
         "tags": ["ANF","autisme","school","prikkels","prikkelverwerking"],
         "url": "https://autcast.myautisticself.nl/naar-school-in-een-prikkelende-wereld/",
         "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
+      },{
+        "title": "Autisme en jobcoaching - In gesprek met Willemijn van Dennebroek",
+        "excerpt":"In deze aflevering ga ik in gesprek met Willemijn van Dennebroek, job coach bij Scauting. Met haar praat ik over wat een jobcoach eigenlijk is, over werk en wat daarvoor nodig is. Contact met mij opnemen kan via autcast@myautisticself.nl of je kunt een voicemail bericht voor me achter laten. En...","categories": [],
+        "tags": ["autisme","jobcoaching","werk","interview"],
+        "url": "https://autcast.myautisticself.nl/autisme-en-jobcoaching-in-gesprek-met-willemijn-van-dennebroek/",
+        "teaser": "https://autcast.myautisticself.nl/assets/img/autcast2.png"
       }]
