@@ -56,8 +56,8 @@ reCaptcha:
   secret                 : # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 
 staticman:
-  branch: "main"
-staticman_url: https://staticman-dw.herokuapp.com/v2/entry/davidakachaos/deautcast/main/comments
+  branch: "source"
+staticman_url: https://staticman-dw.herokuapp.com/v2/entry/davidakachaos/deautcast/source/comments
 
 atom_feed:
   path                   : # blank (default) uses feed.xml
