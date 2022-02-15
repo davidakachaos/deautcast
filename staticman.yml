@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  # allowedOrigins: ["yourdomain.com"]
+  allowedOrigins: ["autcast.nl", "localhost"]
 
   # (*) REQUIRED
   #
@@ -98,7 +98,7 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: true
-    siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+    siteKey: "6LcfM30eAAAAAHMEWsEGmVB36fZ24nAr9B6Eh6qM"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+    secret: "bJGZufPapmBwKApYfauj1XOdZJZZMEHeqi26bT1ccO6jFRYME7hgWrC52xhJCT622w4pQi3qAw/E49Ek85UK00efuo2WZsiijM2yCw/UTUwxqSycAz0biV9pEg9Mu60KpzPr/gQUAAcSa5kQsuX3xOXUFznObEnZ8+LbnJV19DemRUnxKS38odKLqlzfG2pAGpJNtzC5ObB5vLeTDcu8ArlGkI1acxFNIdV7/Yb5M+Bx/hs4Q23dIalz2HDZkYwoD1BCcTBoft/pgBXWidSbsu+pT2rritrwWnYtOMkcHJKCooJqQD2js0aZmtdWphr7bu2QWmN56fH6Zs0H8gsIjw=="
