@@ -164,7 +164,7 @@
 <p>Hidde is iemand die zelf autistisch is, net als ik, en werkzaam is bij de dagbesteding waar ik zelf kom. Daar heb ik hem leren kennen en heb hem gevraagd om eens met mij te praten over autisme, zijn werkzaamheden als coach en over Scauting.</p>
 <p>Meer informatie over Scauting kunnen jullie vinden op <a href="https://www.scauting.nl">www.scauting.nl</a></p>
 <p>Wisten jullie trouwens dat jullie ook een voicemail bericht voor me kunnen achter laten via <a href="https://anchor.fm/autcast">https://anchor.fm/autcast</a>? Misschien hoor ik jullie snel!</p>
-<p>Contact met mij opnemen kan ook via <a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#58;a&#117;&#116;&#99;&#97;&#115;&#x74;&#x40;&#109;y&#x61;&#x75;t&#105;&#115;&#116;&#x69;&#x63;&#x73;&#101;l&#x66;&#46;&#110;&#x6c;">autcast@myautisticself.nl</a>. En uiteraard via <a href="/contact/">Contact</a> hier op deze website.</p>
+<p>Contact met mij opnemen kan ook via <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#x61;&#117;&#x74;&#x63;&#97;&#115;&#x74;&#64;m&#121;a&#117;&#116;&#105;&#115;&#116;i&#x63;&#115;&#x65;&#x6c;&#x66;&#x2e;&#110;&#x6c;">autcast@myautisticself.nl</a>. En uiteraard via <a href="/contact/">Contact</a> hier op deze website.</p>
 <iframe src="https://anchor.fm/autcast/embed/episodes/Aflevering-4---Interview-met-Hidde-Dijkstra-embms0" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
      </section>
      <footer class="page__meta">
@@ -192,6 +192,48 @@
    </div>
      <div class="page__comments">
      <section id="static-comments">
+        davidakachaos/deautcast
+        {"branch"=>"main"}
+         <div class="js-comments">
+         </div>
+         <div class="page__comments-form">
+           <h4 class="page__comments-title">Laat een reactie achter</h4>
+           <p class="small">Uw e-mailadres wordt niet gepubliceerd. Verplichte velden zijn gemarkeerd <span class="required">*</span></p>
+            <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://staticman-dw.herokuapp.com/v2/entry/davidakachaos/deautcast/master/comments">
+             <div class="form__spinner">
+                <i class="fas fa-spinner fa-spin fa-3x fa-fw"></i>
+                <span class="sr-only">Laden...</span>
+             </div>
+             <div class="form-group">
+                <label for="comment-form-message">Commentaar <small class="required">*</small></label>
+                <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+               <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">Markdown wordt ondersteund.</a></div>
+             </div>
+             <div class="form-group">
+                <label for="comment-form-name">Naam <small class="required">*</small></label>
+                <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+             </div>
+             <div class="form-group">
+                <label for="comment-form-email">E-mailadres <small class="required">*</small></label>
+                <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+             </div>
+             <div class="form-group">
+                <label for="comment-form-url">Website (optioneel)</label>
+                <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+             </div>
+             <div class="form-group hidden" style="display: none;">
+                <input type="hidden" name="options[slug]" value="interview-met-hidde-dijkstra">
+                <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
+                <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
+             </div>
+             <p class="hidden js-notice">
+                <strong class="js-notice-text"></strong>
+             </p>
+             <div class="form-group">
+                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">Commentaar toevoegen</button>
+             </div>
+            </form>
+         </div>
      </section>
 </div>
  </article>
@@ -298,5 +340,39 @@
   gtag('js', new Date());
   gtag('config', 'G-67G4LKLC3J', { 'anonymize_ip': true});
 </script>
+  <script>
+    (function ($) {
+    $('#new_comment').submit(function () {
+      var form = this;
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fas fa-spinner fa-spin fa-fw"></i> Laden...');
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Toegevoegd');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Bedankt voor uw reactie! Het zal op de site worden weergegeven zodra het is goedgekeurd.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Commentaar toevoegen');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, er is een fout opgetreden bij uw inzending. Zorg ervoor dat alle vereiste velden zijn voltooid en probeer het opnieuw.');
+          $(form).removeClass('disabled');
+        }
+      });
+      return false;
+    });
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
  </body>
 </html>

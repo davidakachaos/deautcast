@@ -162,8 +162,8 @@
      <section class="page__content" itemprop="text">
        <p>In deze aflevering praat ik met Anna Soorsma van de <a href="https://www.jpvandenbent.nl/">JP van den Bent stichting</a>. We praten over het begeleiden van autisten door de JP van den Bent stichting en hoe Anna zelf ooit begonnen is met dit werk.</p>
 <p>Meer informatie over JP van den Bent vind je op hun website: <a href="https://www.jpvandenbent.nl/">https://www.jpvandenbent.nl/</a><br />
-Ook kun je altijd contact met hun opnemen via <strong>0570 - 66 57 70</strong> of <a href="m&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;i&#x6e;&#102;&#111;&#x40;&#106;&#x70;&#118;&#97;&#110;d&#x65;&#110;&#98;&#x65;&#110;&#116;&#46;&#x6e;&#x6c;">info@jpvandenbent.nl</a></p>
-<p>Contact met mij opnemen kan via <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#x3a;&#97;&#117;&#116;&#99;&#x61;&#x73;&#116;&#64;&#109;&#121;&#97;&#117;&#116;&#105;&#x73;&#x74;i&#x63;&#115;&#x65;&#x6c;&#102;&#x2e;&#110;&#x6c;">autcast@myautisticself.nl</a> of je kunt <a href="https://anchor.fm/autcast/message">een voicemail bericht</a> voor me achter laten. En uiteraard via <a href="/contact/">Contact</a> hier op deze website.</p>
+Ook kun je altijd contact met hun opnemen via <strong>0570 - 66 57 70</strong> of <a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#105;&#x6e;&#102;&#111;&#64;&#106;p&#118;&#97;&#110;&#x64;&#101;&#x6e;&#98;&#101;&#110;&#x74;&#46;&#x6e;&#x6c;">info@jpvandenbent.nl</a></p>
+<p>Contact met mij opnemen kan via <a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;:&#x61;&#117;t&#99;a&#115;&#116;&#64;&#109;&#121;&#97;&#117;&#x74;&#x69;&#115;&#116;ic&#115;&#101;&#108;f&#x2e;&#110;&#x6c;">autcast@myautisticself.nl</a> of je kunt <a href="https://anchor.fm/autcast/message">een voicemail bericht</a> voor me achter laten. En uiteraard via <a href="/contact/">Contact</a> hier op deze website.</p>
 <iframe src="https://anchor.fm/autcast/embed/episodes/In-gesprek-met-Anna-Soorsma-van-JP-van-den-Bent-eq5g76" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
      </section>
      <footer class="page__meta">
@@ -192,6 +192,48 @@ Ook kun je altijd contact met hun opnemen via <strong>0570 - 66 57 70</strong> o
    </div>
      <div class="page__comments">
      <section id="static-comments">
+        davidakachaos/deautcast
+        {"branch"=>"main"}
+         <div class="js-comments">
+         </div>
+         <div class="page__comments-form">
+           <h4 class="page__comments-title">Laat een reactie achter</h4>
+           <p class="small">Uw e-mailadres wordt niet gepubliceerd. Verplichte velden zijn gemarkeerd <span class="required">*</span></p>
+            <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://staticman-dw.herokuapp.com/v2/entry/davidakachaos/deautcast/master/comments">
+             <div class="form__spinner">
+                <i class="fas fa-spinner fa-spin fa-3x fa-fw"></i>
+                <span class="sr-only">Laden...</span>
+             </div>
+             <div class="form-group">
+                <label for="comment-form-message">Commentaar <small class="required">*</small></label>
+                <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+               <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">Markdown wordt ondersteund.</a></div>
+             </div>
+             <div class="form-group">
+                <label for="comment-form-name">Naam <small class="required">*</small></label>
+                <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+             </div>
+             <div class="form-group">
+                <label for="comment-form-email">E-mailadres <small class="required">*</small></label>
+                <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+             </div>
+             <div class="form-group">
+                <label for="comment-form-url">Website (optioneel)</label>
+                <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+             </div>
+             <div class="form-group hidden" style="display: none;">
+                <input type="hidden" name="options[slug]" value="in-gesprek-met-anna-soorsma-van-jp-van-den-bent">
+                <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
+                <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
+             </div>
+             <p class="hidden js-notice">
+                <strong class="js-notice-text"></strong>
+             </p>
+             <div class="form-group">
+                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">Commentaar toevoegen</button>
+             </div>
+            </form>
+         </div>
      </section>
 </div>
  </article>
@@ -298,5 +340,39 @@ Ook kun je altijd contact met hun opnemen via <strong>0570 - 66 57 70</strong> o
   gtag('js', new Date());
   gtag('config', 'G-67G4LKLC3J', { 'anonymize_ip': true});
 </script>
+  <script>
+    (function ($) {
+    $('#new_comment').submit(function () {
+      var form = this;
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fas fa-spinner fa-spin fa-fw"></i> Laden...');
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Toegevoegd');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Bedankt voor uw reactie! Het zal op de site worden weergegeven zodra het is goedgekeurd.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Commentaar toevoegen');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, er is een fout opgetreden bij uw inzending. Zorg ervoor dat alle vereiste velden zijn voltooid en probeer het opnieuw.');
+          $(form).removeClass('disabled');
+        }
+      });
+      return false;
+    });
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
  </body>
 </html>

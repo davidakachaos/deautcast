@@ -163,7 +163,7 @@
        <p>Deze bijzondere aflevering van de AutCast is gemaakt in samenwerking met het Autisme Netwerk Friesland (ANF). Het ANF is een project gestart om prikkelverwerking op de middelbare school onder de aandacht te brengen bij docenten en ondersteunend personeel. <img src="/assets/img/afn-logo.png" alt="Logo ANF" class="align-right" /> In het kader hiervan worden op verschillende middelbare scholen in Friesland zogenaamde lunch trommels langs gebracht met informatie over prikkelverwerking. Voor meer informatie over dit project verwijs ik graag naar de website van het project.</p>
 <p>Deze aflevering maakt onderdeel uit van de lunchtrommel voor het project Prikkelverwerking op school van het ANF.</p>
 <p>In deze aflevering ga ik in gesprek met Hanna en Diana. Hanna gaat naar de middelbare school en Diana is haar moeder. We gaan in deze aflevering openhartig met elkaar in gesprek over de verschillende prikkels waar Hanna tegenaan loopt. We praten over licht, geluid en andere prikkels die het dagelijks leven van Hanna beïnvloeden en wat we kunnen doen om ze beter te kunnen verwerken.</p>
-<p>Contact met mij opnemen kan via <a href="m&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#97;&#x75;&#116;&#99;&#x61;&#x73;&#x74;&#64;&#x6d;&#x79;&#97;&#117;&#x74;&#105;&#115;&#x74;&#x69;&#99;&#115;&#101;&#108;&#x66;&#46;n&#x6c;">autcast@myautisticself.nl</a>, mijn sociale media, je kunt <a href="https://anchor.fm/autcast/message">een voicemail bericht</a> voor me achter laten en uiteraard via <a href="/contact">contact</a> op mijn website. Heb je iets te vertellen over autisme? Wil je in discussie over neurodiversiteit? Ik sta altijd open voor een gesprek!</p>
+<p>Contact met mij opnemen kan via <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#x61;&#117;&#116;&#99;&#97;&#115;&#x74;&#x40;&#109;&#x79;&#97;&#x75;&#x74;&#105;&#x73;&#x74;&#105;&#x63;&#115;&#x65;&#x6c;&#102;&#46;&#x6e;l">autcast@myautisticself.nl</a>, mijn sociale media, je kunt <a href="https://anchor.fm/autcast/message">een voicemail bericht</a> voor me achter laten en uiteraard via <a href="/contact">contact</a> op mijn website. Heb je iets te vertellen over autisme? Wil je in discussie over neurodiversiteit? Ik sta altijd open voor een gesprek!</p>
 <iframe src="https://anchor.fm/autcast/embed/episodes/naar-school-in-een-prikkelende-wereld-e19099i" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
      </section>
      <footer class="page__meta">
@@ -194,6 +194,48 @@
    </div>
      <div class="page__comments">
      <section id="static-comments">
+        davidakachaos/deautcast
+        {"branch"=>"main"}
+         <div class="js-comments">
+         </div>
+         <div class="page__comments-form">
+           <h4 class="page__comments-title">Laat een reactie achter</h4>
+           <p class="small">Uw e-mailadres wordt niet gepubliceerd. Verplichte velden zijn gemarkeerd <span class="required">*</span></p>
+            <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://staticman-dw.herokuapp.com/v2/entry/davidakachaos/deautcast/master/comments">
+             <div class="form__spinner">
+                <i class="fas fa-spinner fa-spin fa-3x fa-fw"></i>
+                <span class="sr-only">Laden...</span>
+             </div>
+             <div class="form-group">
+                <label for="comment-form-message">Commentaar <small class="required">*</small></label>
+                <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+               <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">Markdown wordt ondersteund.</a></div>
+             </div>
+             <div class="form-group">
+                <label for="comment-form-name">Naam <small class="required">*</small></label>
+                <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+             </div>
+             <div class="form-group">
+                <label for="comment-form-email">E-mailadres <small class="required">*</small></label>
+                <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+             </div>
+             <div class="form-group">
+                <label for="comment-form-url">Website (optioneel)</label>
+                <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+             </div>
+             <div class="form-group hidden" style="display: none;">
+                <input type="hidden" name="options[slug]" value="naar-school-in-een-prikkelende-wereld">
+                <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
+                <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
+             </div>
+             <p class="hidden js-notice">
+                <strong class="js-notice-text"></strong>
+             </p>
+             <div class="form-group">
+                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">Commentaar toevoegen</button>
+             </div>
+            </form>
+         </div>
      </section>
 </div>
  </article>
@@ -300,5 +342,39 @@
   gtag('js', new Date());
   gtag('config', 'G-67G4LKLC3J', { 'anonymize_ip': true});
 </script>
+  <script>
+    (function ($) {
+    $('#new_comment').submit(function () {
+      var form = this;
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fas fa-spinner fa-spin fa-fw"></i> Laden...');
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Toegevoegd');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Bedankt voor uw reactie! Het zal op de site worden weergegeven zodra het is goedgekeurd.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Commentaar toevoegen');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, er is een fout opgetreden bij uw inzending. Zorg ervoor dat alle vereiste velden zijn voltooid en probeer het opnieuw.');
+          $(form).removeClass('disabled');
+        }
+      });
+      return false;
+    });
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
  </body>
 </html>
